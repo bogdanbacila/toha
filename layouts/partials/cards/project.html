@@ -4,6 +4,23 @@
 >
   <div class="card mt-1">
     <div class="card">
+      <a class="card-head-project" href="{{ if .repo }}{{ .repo }}{{ else if .url }}{{ .url }}{{ else }}javascript:void(0){{ end }}" {{ if or .repo .url }}target="_blank" rel="noopener"{{ end }}>
+
+        <div class="d-flex">
+          {{ if .hero }}
+
+          {{ $heroImage:= resources.Get .hero}}
+          {{ if $heroImage }}
+          {{/*  svg don't support "Fit" operation   */}}
+          {{ if ne $heroImage.MediaType.SubType "svg" }}
+            {{ $heroImage = $heroImage.Fit "500x500" }}
+          {{ end }}
+
+          <img class="card-img-top" src="{{ $heroImage.RelPermalink }}" alt="{{ .name }}" />
+          {{ end }}
+          {{ end }}
+        </div>
+      </a>
       <a class="card-header" href="{{ if .repo }}{{ .repo }}{{ else if .url }}{{ .url }}{{ else }}javascript:void(0){{ end }}" {{ if or .repo .url }}target="_blank" rel="noopener"{{ end }}>
         <div>
           <div class="d-flex">

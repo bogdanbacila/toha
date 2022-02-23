@@ -149,12 +149,24 @@ img.right {
   overflow: hidden;
 }
 
+.card .card-head-project {
+  -o-object-fit: cover;
+  object-fit: cover;
+  overflow: hidden;
+}
+
 .card-img-top {
   transition: all 0.3s ease-out !important;
 }
 
 .card:hover .card-head .card-img-top,
 .card:focus .card-head .card-img-top {
+  transition: all 0.3s ease-out;
+  transform: scale(1.2);
+}
+
+.card:hover .card-head-project .card-img-top,
+.card:focus .card-head-project .card-img-top {
   transition: all 0.3s ease-out;
   transform: scale(1.2);
 }
