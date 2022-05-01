@@ -128,6 +128,7 @@
           </div>
 
         <!--- Improve this page button --->
+        <!--
         {{ if site.Params.GitRepo }}
           {{ if site.Params.GitBranch }}
             {{ .Scratch.Set "GitBranch" site.Params.GitBranch }}
@@ -139,17 +140,16 @@
               <a href="{{ site.Params.GitRepo }}/-/edit/{{ .Scratch.Get "GitBranch" }}/content/{{ .File.Path }}" title="{{ i18n "improve_this_page" }}" target="_blank" rel="noopener">
             {{ else if ( eq site.Params.GitForge "gitea" ) }}
               <a href="{{ site.Params.GitRepo }}/_edit/{{ .Scratch.Get "GitBranch" }}/content/{{ .File.Path }}" title="{{ i18n "improve_this_page" }}" target="_blank" rel="noopener">
-            {{ else }} <!--- Make Github-style the default -->
+            {{ else }} --> <!-- Make Github-style the default --> <!--
                <a href="{{ site.Params.GitRepo }}/edit/{{ .Scratch.Get "GitBranch" }}/content/{{ .File.Path }}" title="{{ i18n "improve_this_page" }}" target="_blank" rel="noopener">
             {{ end }}
                 <i class="fas fa-code-branch"></i>
                 {{ i18n "improve_this_page" }}
               </a>
           </div>
-        {{ end }}
+        {{ end }} 
+        -->
         </div>
-
-
 
       <!---Next and Previous Navigator -->
       <hr />

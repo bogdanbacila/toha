@@ -1,7 +1,12 @@
+.main-body{
+  margin:auto;
+}
+
 body {
   background-color: #e5e9f2;
   position: relative;
 }
+
 .read-area {
   background-color: #f9fafc;
 }
