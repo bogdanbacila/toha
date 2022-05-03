@@ -2,8 +2,9 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+*/
 
-html, body, div, span, applet, object, iframe,
+#post-content-cv html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -23,25 +24,25 @@ time, mark, audio, video {
 	font: inherit;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
+#post-content-cv article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+#post-content-cv body {
 	line-height: 1;
 }
-ol, ul {
+#post-content-cv ol, ul {
 	list-style: none;
 }
-blockquote, q {
+#post-content-cv blockquote, q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
+#post-content-cv blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
-table {
+#post-content-cv table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
@@ -50,7 +51,7 @@ table {
 
 
 
-body {
+#post-content-cv body {
 	font: normal normal 400;
 	font-size: 100%;
 	line-height: 1.5em;
@@ -60,7 +61,7 @@ body {
 	margin-left: 1em;
 }
 
-p {
+#post-content-cv p {
 	position: relative;
 	left: 25%;
 	margin-bottom: 0.7em;
@@ -68,15 +69,15 @@ p {
 	width: 55%;
 }
 
-code {
+#post-content-cv code {
 	font: normal normal;
 	font-size: 90%;
-	/*line-height: 1em;*/
+	line-height: 1em;
 	font-family: Monaco,Menlo,monospace,sans-serif;
 	color: #aaa;
 }
 
-p code {
+#post-content-cv p code {
 	position: absolute;
 	text-align: right;
 	right: -20%;
@@ -92,18 +93,18 @@ p code {
 }
 
 /*uncomment to get dashes in the list*/
-/*li:before {
+#post-content-cv li:before {
 	content: "-";
 	position: relative;
 	left: -0.25em;
-}*/
-
-#post-content-cv li {
-	/*second line indent*/
-	padding-left: 1.25em;
-	text-indent: -1.25em;
-	/*color: #777;*/
 }
+
+/* #post-content-cv li { */
+	/* second line indent */
+	/* padding-left: 1.25em; */
+	/* text-indent: -1.25em; */
+	/* color: #777; */
+/* } */
 
 #post-content-cv li ul {
 	position: relative;
@@ -112,13 +113,13 @@ p code {
 	margin-top: 0.25em;
 }
 
-h1,h2,h3,h4 {
+#post-content-cv h1,h2,h3,h4 {
 	font-weight: 400;
 	font-family: Avenir,Cousine,Verdana,sans-serif;
 	width: 80%;
 }
 
-h1 {
+#post-content-cv h1 {
 	text-align: left;
 	font-size: 3em;
 	line-height: 1em;
@@ -126,13 +127,13 @@ h1 {
 	left: 25%;
 }
 
-h1+p {
+#post-content-cv h1+p {
 	/*subtitle*/
 	font-style: italic;
 	font-size: 110%;
 }
 
-h2 {
+#post-content-cv h2 {
 	font-size: 1.1em;
 	color: #bc412b;
 	margin-top: 3em;
@@ -142,7 +143,7 @@ h2 {
 	width: 20%;
 }
 
-h3 {
+#post-content-cv h3 {
 	font-size: 1em;
 	line-height: 2em;
 	position: relative;
@@ -173,12 +174,12 @@ h3 {
 	text-decoration: none;
 }
 
-em {
-	/* font-weight: bold; */
+#post-content-cv em {
+	font-weight: bold;
 	font-style: italic;
 }
 
-strong {
+#post-content-cv strong {
 	font-weight: bold;
 }
 

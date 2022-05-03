@@ -1,0 +1,79 @@
+.content-section {
+	position: relative;
+	flex: 100%;
+	max-width: 80%;
+	order: 2;
+	background-color: lightseagreen;
+	margin: auto;
+	padding: 0;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.page-content {
+	position: relative;
+	width: 100%;
+	top: 4.5rem;
+	padding: 15px;
+}
+
+h1 {
+	position: relative;
+	text-align: left;
+	font-size: 3em;
+	line-height: 1em;
+	/* left: 25%; */
+}
+
+h1+p {
+	/*subtitle*/
+	position: relative;
+	left: 0;
+	text-align: left;
+	font-style: italic;
+	font-size: 110%;
+}
+
+
+p, li {
+	background-color: aqua;
+	position: relative;
+	left: 25%;
+	/* margin-bottom: 0.7em; */
+	/* margin-right: 0; */
+	width: 75%;
+}
+
+
+code, em {
+	background-color: aquamarine;
+	position: relative;
+	/* left:50%; */
+	/* text-align: left; */
+	/* padding-right: 5%; */
+	/* padding-left: 5%; */
+}
+
+
+
+
+strong{
+	background-color:coral;
+	position: relative;
+	text-align: left;
+	/* width: 55%; */
+}
+
+/* p>code {
+	background-color: deeppink;
+	position:relative;
+	left: -25%;
+} */
+
+
+
+
+/* code+p{
+	position: relative;
+	left: 0; 
+}*/
