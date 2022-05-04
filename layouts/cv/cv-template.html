@@ -5,6 +5,7 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
 />
 <link rel="stylesheet" href="{{ "/css/layouts/single.css" | relURL }}"/>
+<link rel="stylesheet" href="{{ "/css/layouts/cv.css" | relURL }}"/>
 <!--================= custom style overrides =========================-->
 <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}"/>
 <link rel="stylesheet" href="{{ "/css/cv-templates/bogdanbacila-cv-2.css" | relURL }}"/>
@@ -41,11 +42,7 @@
         </div>
       </div>
     </div>
-    <!--scroll back to top-->
-    <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
-    {{ if .IsTranslated }}
-      {{ partial "navigators/floating-lang-selector.html" . }}
-    {{ end }}
+    
   </section>
 {{ end }}
 
