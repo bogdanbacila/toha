@@ -1,9 +1,9 @@
 {{ define "header" }}
 <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Title }}{{ end }}" />
-<link
+<!-- <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
-/>
+/> -->
 <link rel="stylesheet" href="{{ "/css/layouts/single.css" | relURL }}"/>
 <link rel="stylesheet" href="{{ "/css/layouts/cv.css" | relURL }}"/>
 <!--================= custom style overrides =========================-->
@@ -13,12 +13,6 @@
 
 
 {{ end }}
-
-{{ define "navbar" }}
-    {{ partial "navigators/navbar-2.html" . }}
-{{ end }}
-
-
 
 {{ define "content" }}
   <section class="content-section" id="content-section">
@@ -32,10 +26,7 @@
         <div class="page-content">
           <div class="author-profile ml-auto align-self-lg-center">
             <img class="rounded-circle" src='{{ partial "helpers/get-author-image.html" . }}' alt="Author Image">
-
-            <!-- <p>{{ .Page.Date | time.Format ":date_full" }}</p> -->
           </div>
-
           <div class="post-content" id="post-content-cv">
             {{ .Page.Content }}
           </div> 
