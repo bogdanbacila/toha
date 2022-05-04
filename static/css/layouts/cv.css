@@ -1,0 +1,19 @@
+.content-section {
+	position: relative;
+	flex: 100%;
+	max-width: 60%;
+	order: 2;
+	background-color: lightseagreen;
+	margin: auto;
+	padding: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.page-content {
+	position: relative;
+	width: 100%;
+	top: 4.5rem;
+	padding: 15px;
+	padding-bottom: 1rem;
+}
