@@ -18,9 +18,6 @@
   <section class="content-section" id="content-section">
     <div class="content">
       <div class="container p-0 read-area ">
-        <!-- Hero Area
-        <div class="hero-area col-sm-12" id="hero-area" style='background-image: url({{ strings.TrimSuffix "/" site.BaseURL }}{{ partial "helpers/get-hero.html" . }});'>
-        </div> -->
 
         <!--Content Start-->
         <div class="page-content">
@@ -29,6 +26,7 @@
           </div>
           <div class="post-content" id="post-content-cv">
             {{ .Page.Content }}
+            Last updated: {{ .Page.Date | time.Format "2 Jan 2006" }}
           </div> 
         </div>
       </div>
