@@ -17,13 +17,13 @@ h1+p {
 }
 
 h2, h3, h4, h5, h6 {
-	background-color: antiquewhite;
+	/* background-color: antiquewhite; */
 	text-align: right;
 	padding-right: 75%;
 }
 
 p, li {
-	background-color: lightpink;
+	/* background-color: lightpink; */
 	position: relative;
 	left: 26%;
 	/* margin-bottom: 0.7em; */
@@ -50,31 +50,36 @@ strong{
 
 dl {
 	/* background-color: lightblue; */
-
+	
 }
 
 dt {
 	/* background-color: darkgreen; */
-	width: 25%;
-	padding-left:1em;
+	/* width: 25%; */
 	padding-right:1em;
-	text-align: right
+	/* text-align: right */
 }
 
 dd {
 	/* background-color: gold; */
 	width: 25%;
-	padding-left:1em;
 	padding-right:1em;
 	text-align: right
 }
 
 p code {
-	background-color: aquamarine;
+	/* background-color: aquamarine; */
+	position: absolute;
+	right: 100%;
+	padding-right: 1em;	
+	line-height: 1.9em;
+	width: 33.3%;
+	text-align: right;
 }
 
 dd code+strong {
 	position: absolute;
 	left: 27%;
 }
+
 
