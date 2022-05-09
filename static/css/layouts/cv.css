@@ -16,16 +16,21 @@
 	top: 0;
 }
 
+.post-content{
+	padding: 0%;
+}
+
 .hljs {
 	display:block;
-	/* overflow-x:auto; */
-	/* padding:.5em; */
-	color:#a90000;
+	overflow-x:auto;
+	padding:.5em;
+	color:#8b0000;
+
 	/* background:#282c34 */
 }
 .hljs-comment,.hljs-quote{
 	color:#5c6370;
-	font-style:italic
+	font-style:italic;
 }
 
 .hljs-emphasis{
@@ -50,3 +55,4 @@
 #webaddress a {
 	text-decoration: none;
 }
+

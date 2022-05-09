@@ -13,10 +13,17 @@ h1+p {
 	left: 0;
 	text-align: left;
 	font-style: italic;
-	font-size: 110%;
+	font-size: 120%;
 }
 
-h2, h3, h4, h5, h6 {
+h6+p {
+	/*address*/
+	position: relative;
+	left: 0;
+	text-align: left;
+}
+
+h2, h3, h4, h5{
 	/* background-color: antiquewhite; */
 	text-align: right;
 	padding-right: 75%;
@@ -41,6 +48,10 @@ code, em {
 	/* padding-left: 5%; */
 }
 
+code {
+	color:#8b0000;
+}
+
 strong{
 	/* background-color:coral; */
 	position: relative;
@@ -57,7 +68,18 @@ dt {
 	/* background-color: darkgreen; */
 	/* width: 25%; */
 	padding-right:1em;
+	color:#8b0000;
 	/* text-align: right */
+}
+
+dt::after {
+	content: "\A  ";
+	white-space: pre;
+}
+
+dt::before {
+	content: "\A  ";
+	white-space: pre;
 }
 
 dd {
@@ -70,10 +92,10 @@ dd {
 p code {
 	/* background-color: aquamarine; */
 	position: absolute;
-	right: 100%;
-	padding-right: 1em;	
 	line-height: 1.9em;
+	right: 100%;
 	width: 33.3%;
+	padding-right: 1em;	
 	text-align: right;
 }
 
