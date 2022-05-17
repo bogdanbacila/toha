@@ -50,9 +50,17 @@
 	color: #ccc;
 	font-family: Monaco,Menlo,monospace,sans-serif;
 	font-size: 90%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+#contact {
+	padding-left: 2%;
+	padding-right: 2%;
 }
 
 #webaddress a {
 	text-decoration: none;
+	white-space: nowrap;
 }
 
