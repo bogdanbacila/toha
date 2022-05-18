@@ -42,10 +42,21 @@ h2, h3, h4, h5{
 	left: 10%;
 }
 
-p, li {
+#main-paragraph + ul {
+	position: relative;
+	left: 10%;
+}
+
+ul li {
+	position: relative;
+	left: 0%;
+} 
+
+p, ul {
 	/* background-color: lightpink; */
 	position: relative;
 	left: 26%;
+	margin-top: 1em;
 	/* margin-bottom: 0.7em; */
 	/* margin-right: 0; */
 	width: 75%;
@@ -121,7 +132,7 @@ dd code+strong {
 p code {
 	/* background-color: aquamarine; */
 	position: absolute;
-	line-height: 1.9em;
+	line-height: 1.8em;
 	right: 100%;
 	width: 33.3%;
 	padding-right: 1em;	
