@@ -139,6 +139,17 @@ p code {
 	text-align: right;
 }
 
+#thesis-progress{
+	padding-top: 0.5em;
+}
+  
+#thesis-progress::before{
+	content:"PhD Thesis Progress: "
+}
+
+#thesis-progress::after{
+	content:" words"
+}
 
 
 

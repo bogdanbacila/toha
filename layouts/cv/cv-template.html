@@ -27,6 +27,9 @@
             {{ .Page.Content }}
             Last updated: {{ .Page.Date | time.Format "2 Jan 2006" }}
           </div> 
+          <div id="thesis-progress"></div> 
+          <script src="{{ "/js/get-progress.js" | relURL }}"></script>
+          </script>
         </div>
       </div>
     </div>
