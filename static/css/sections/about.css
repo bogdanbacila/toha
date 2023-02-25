@@ -3,12 +3,12 @@
  }
 
 #thesis-progress::before{
- content:"PhD Thesis Progress: "
+ content:"PhD Progress: "
 }
 
-#thesis-progress::after{
+/* #thesis-progress::after{
   content:" words"
- }
+ } */
 
 .social-link {
   list-style: none;

@@ -43,15 +43,18 @@
   background-color: #e7e7ef;
   padding: 5px;
   margin-bottom: 10px;
+  box-shadow: 0 0 100px #000000;
 }
 
 .home .greeting, .home .greeting-subtitle {
   color: #f9fafc;
+  text-shadow: 0 0 20px #000000, 0 0 10px #000000;
 }
 
 .home .typing-carousel {
   font-size: 14pt;
   color: #f0f0f0;
+  text-shadow: 0 0 20px #000000, 0 0 10px #000000;
 }
 
 #typing-carousel-data {

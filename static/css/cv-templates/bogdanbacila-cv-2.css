@@ -1,4 +1,14 @@
 
+/* .author-profile {
+	position: relative;
+	align-content: center; 
+	text-align: right; 
+	right: 20%; 
+	top: 40%;
+  }  
+  */
+
+
 h1 {
 	position: relative;
 	text-align: left;
@@ -144,12 +154,12 @@ p code {
 }
   
 #thesis-progress::before{
-	content:"PhD Thesis Progress: "
+	content:"PhD Progress: "
 }
 
-#thesis-progress::after{
+/* #thesis-progress::after{
 	content:" words"
-}
+} */
 
 
 
