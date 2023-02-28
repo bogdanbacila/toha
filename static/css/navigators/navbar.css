@@ -18,19 +18,20 @@
 }
 
 .initial-navbar .navbar-brand {
-  color: #c0ccda;
-  font-weight: 600;
+  color: #330c0c;
+  font-weight: 1000;
 }
 
 .initial-navbar li a {
-  color: #c0ccda;
+  color: #330c0c;
 }
 
 .initial-navbar .navbar-nav .active,
 .initial-navbar li a:hover {
-  color: #f9fafc;
-  transition: all 0.3s ease-out;
+  color: #ffffff;
+  transition: all 0.1s ease-out;
   transform: translateY(-2px);
+  text-shadow: 0 0 10px #000000;
 }
 
 .navbar-collapse {
@@ -54,12 +55,12 @@
 }
 
 .final-navbar .navbar-brand {
-  color: #1c2d41;
-  font-weight: 600;
+  color: #330c0c;
+  font-weight: 1000;
 }
 
 .final-navbar li a {
-  color: #1c2d41;
+  color: #330c0c;
   font-weight: 500;
   transition: all 0.3s ease-out;
   border-bottom: 2px solid#F9FAFC;
@@ -80,7 +81,7 @@
 
 .navbar-collapse.show li a,
 .navbar-collapse.collapsing li a {
-  color: #1c2d41;
+  color: #330c0c;
   font-weight: 500;
   transition: all 0.3s ease-out;
 }
