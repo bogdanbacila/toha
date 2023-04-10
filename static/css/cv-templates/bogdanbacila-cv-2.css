@@ -1,12 +1,11 @@
-
-/* .author-profile {
-	position: relative;
-	align-content: center; 
-	text-align: right; 
-	right: 20%; 
-	top: 40%;
-  }  
-  */
+/* 
+.author-profile-cv {
+	position: absolute;
+	transform: scale(1.5);
+	right:7em;
+	top:7em;
+  }   */
+ 
 
 
 h1 {
